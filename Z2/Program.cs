@@ -36,7 +36,7 @@ int getInteger(string text)
 int n = getInteger("Enter n: ");
 int m = getInteger("Enter m: ");
 
-double[,] array = new double[n, m];
+int[,] array = new int[n, m];
 
 fillarray_s(array, -20, 20);
 printarray_s(array);
