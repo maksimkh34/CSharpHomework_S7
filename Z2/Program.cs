@@ -1,6 +1,6 @@
 ﻿//funcs
 
-void fillarray_s(double[,] array, int min, int max)
+void fillarray_s(int[,] array, int min, int max)
 {
     Random rand = new Random();
     for (int i = 0; i < array.GetLength(0); i++)
@@ -12,7 +12,7 @@ void fillarray_s(double[,] array, int min, int max)
     }
 }
 
-void printarray_s(double[,] array)
+void printarray_s(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
